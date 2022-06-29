@@ -1,3 +1,21 @@
 img{
     width: 100%;
 }
+
+.hover:hover{
+    background-color: orangered;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 1fr 1fr 1fr 1fr 50px;
+    /* height: 100vh; */
+}
+
+footer {
+    background-color: #80a8a9;
+    color: rgb(48, 44, 44);
+    grid-column: 1 / span 6;
+    grid-row: 6 / span 1;
+}
