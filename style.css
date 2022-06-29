@@ -14,7 +14,7 @@ img{
 }
 
 footer {
-    background-color: #80a8a9;
+    background-color: whitesmoke;
     color: rgb(48, 44, 44);
     grid-column: 1 / span 6;
     grid-row: 6 / span 1;
