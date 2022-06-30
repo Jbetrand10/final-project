@@ -7,7 +7,7 @@ console.log(response);
             console.log(APIResponse);
             let res = JSON.parse(APIResponse);
             console.log(res);
-            let myDiv = document.createElement('div');
+            let myDiv = document.getElementById("advice");
 
             // Creating a paragraph element and adding the innerHTML
             let advicetitle = document.createElement('p');
@@ -21,7 +21,7 @@ console.log(response);
             myDiv.appendChild(advicetitle);
             myDiv.appendChild(adviceoftheDay);
 
-            document.body.appendChild(myDiv);
+            // document.body.appendChild(myDiv);
         }
     })
    
